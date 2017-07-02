@@ -1,0 +1,7 @@
+### 4th
+#### Haern Fell Mine
+* After taking a short rest in the storeroom, we retraced our steps to kill the Ochre Jellies. We did this successfully but Parx ran through a puddle of water on top of one of the collection grates in the mine and then got splashed with more water by the OJ. He started to look a bit more green and tired than usual after this.
+* We proceeded along the corridor where the Gelatinous Cube was and found a very wet dwarf called Gypsum. He was rambling on about voices.
+* We followed the tunnel that Gypsum came from and encountered another Ochre Jelly. While fighting it we were ambushed by another Gibbering Mouther. During the fight, Ephraim and I tried to run away from the GM and were knocked unconscious. Thankfully, Parx managed to pour a healing potion down Ephraim's throat and then Ephraim kicked me to cure some of my wounds.
+* After defeating the GM, we continued to explore the tunnels and came across a giant sentient mushroom called Toadstool. He told us that the poison in the mine was entering the mine in the water flowing from above Haern Fell. We agreed to track down the source of this tainted water and try to stop the poisoning while Toadstool said he would continue to try and purify the water in the mines as much as possible for as long as he could. Ephraim gave Toadstool a few drops of his magical Borus water to help him with this endeavour.
+* Leaving the mines to return to the surface, we noticed that the snoring sound was still coming through the crack in the wall by the lift.
