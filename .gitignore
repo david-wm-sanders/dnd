@@ -1,2 +1,4 @@
 *.pdf
 roll20/images/
+venv/
+wheels/
