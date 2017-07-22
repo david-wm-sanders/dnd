@@ -1,7 +1,36 @@
 @page {
-    margin: 1cm;
+  margin: 1cm;
 }
 
-h1 { text-align: center; }
-body { text-align: justify; }
-pre { margin-left: 1.5cm; }
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  page-break-before: always;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+ul {
+  page-break-inside: avoid;
+  text-align: justify;
+  font-size: 16px;
+}
+
+pre {
+  page-break-inside: avoid;
+  margin-left: 1.5cm;
+  font-size: 16px;
+  font-style: italic
+}

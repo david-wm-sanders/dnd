@@ -25,10 +25,11 @@ for year_path in year_paths:
         # md_blocks.append(f"## {month_name}\n")
         entries = month_path.glob("*.md")
         for entry in entries:
+            entry_name = "/".join(entry.parts[-3:])
             for exclusion in exclusions:
                 if exclusion in str(entry):
-                    print(f"  Entry in '{entry.name}' excluded because '{exclusion}' is in the exclusions list.")
-                    md_blocks.append(f"* Excluded '{entry.name}' because '{exclusion}' is in the exclusions list.\n")
+                    print(f"  Entry in '{entry_name}' excluded because '{exclusion}' is in the exclusions list.")
+                    md_blocks.append(f"* Excluded '{entry_name}' because '{exclusion}' is in the exclusions list.\n")
                     break
             else:
                 with entry.open(encoding="utf-8") as f:
