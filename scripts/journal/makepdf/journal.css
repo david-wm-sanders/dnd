@@ -4,14 +4,12 @@
 
 h1 {
   text-align: center;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 32px;
 }
 
 h2 {
   page-break-before: always;
   font-size: 28px;
-  font-weight: bold;
 }
 
 h3 {
@@ -26,6 +24,16 @@ ul {
   page-break-inside: avoid;
   text-align: justify;
   font-size: 16px;
+}
+
+.toc ul {
+  page-break-inside: auto;
+  font-size: 12px;
+}
+
+.toc a {
+  text-decoration: none;
+  color: black;
 }
 
 pre {
