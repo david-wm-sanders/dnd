@@ -1,9 +1,10 @@
 import itertools
+import pprint
 import markdown
 import weasyprint
 from collections import defaultdict
 from pathlib import Path
-from markdown.extensions.toc import slugify as toc_slugify
+from markdown.extensions.toc import TocExtension, slugify as toc_slugify
 
 
 journal_path = Path(f"../../../campaigns/prydain/pc/durg/journal/")
@@ -52,12 +53,12 @@ def make_toc(md_entries):
                 day, month, year = int(parts[1][:-2]), parts[2], int(parts[3])
                 headers[year][month][day] = header_id
 
-    toc = ["## Table of Contents:\n"]
+    toc = ["## Table of Contents\n"]
     for year in headers:
         print(f" Processing {year}...")
         head_columns = "|".join(" " for x in range(1, 31))
         toc.append(f"| {year} |{head_columns}|\n")
-        alignment_columns = "|".join(" --- " for x in range(1, 31))
+        alignment_columns = "|".join(" :-: " for x in range(1, 31))
         toc.append(f"| :-- |{alignment_columns}|\n")
         for month in headers[year]:
             print(f"  Processing {month}...")
@@ -72,6 +73,7 @@ def make_toc(md_entries):
             toc.append(f"| *{month}* |{link_columns}|\n")
         toc.append("\n")
 
+    # pprint.pprint(toc)
     return toc
 
 
@@ -83,7 +85,7 @@ print("\nJoining markdown chunks into markdown string...")
 journal_text = "".join(itertools.chain(title, toc, md_entries))
 
 print("Converting markdown string into HTML...")
-html = markdown.markdown(journal_text, extensions=["markdown.extensions.extra", "markdown.extensions.toc"])
+html = markdown.markdown(journal_text, extensions=["markdown.extensions.extra", TocExtension(marker="")])
 (journal_path / "journal.html").write_text(html)
 
 print("Rendering HTML to journal.pdf...")
