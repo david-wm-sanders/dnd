@@ -64,8 +64,8 @@ def make_toc(md_entries):
             print(f"  Processing {month}...")
             columns = []
             for day in days:
-                header_id = headers[year][month][day]
-                if type(header_id) is str:
+                if day in headers[year][month]:
+                    header_id = headers[year][month][day]
                     columns.append(f" [{day}](#{header_id}) ")
                 else:
                     columns.append(f" {day} ")
