@@ -7,6 +7,10 @@ h1 {
   font-size: 32px;
 }
 
+h1:after {
+    content: url('../../../campaigns/prydain/pc/durg/durg_img_mini.png');
+}
+
 h2 {
   page-break-before: always;
   font-size: 28px;
@@ -20,7 +24,7 @@ h4 {
   font-size: 20px;
 }
 
-ul {
+li {
   page-break-inside: avoid;
   text-align: justify;
   font-size: 16px;
