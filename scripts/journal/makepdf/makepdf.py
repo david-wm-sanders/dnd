@@ -38,11 +38,10 @@ def get_journal_entries(journal_path, exclusions):
                             md_blocks.append(md)
         return md_blocks
 
-def make_toc(md_entries):
+def make_calendar(md_entries):
     days = list(range(1, 31))
-    months = ["jan", "feb", "Trimene", "apr", "may", "jun", "jul", "aug", "sep", "Ennamene", "Dekamene", "dec"]
 
-    print("\nCreating a table of contents...")
+    print("\nCreating a calendar...")
     tree = lambda: defaultdict(tree)
     headers = tree()
     for md_entry in md_entries:
@@ -53,13 +52,13 @@ def make_toc(md_entries):
                 day, month, year = int(parts[1][:-2]), parts[2], int(parts[3])
                 headers[year][month][day] = header_id
 
-    toc = ["## Table of Contents\n"]
+    calendar = ["## Calendar\n"]
     for year in headers:
         print(f" Processing {year}...")
         head_columns = "|".join(" " for x in range(1, 31))
-        toc.append(f"| {year} |{head_columns}|\n")
+        calendar.append(f"| {year} |{head_columns}|\n")
         alignment_columns = "|".join(" :-: " for x in range(1, 31))
-        toc.append(f"| :-- |{alignment_columns}|\n")
+        calendar.append(f"| :-- |{alignment_columns}|\n")
         for month in headers[year]:
             print(f"  Processing {month}...")
             columns = []
@@ -70,19 +69,19 @@ def make_toc(md_entries):
                 else:
                     columns.append(f" {day} ")
             link_columns = "|".join(columns)
-            toc.append(f"| *{month}* |{link_columns}|\n")
-        toc.append("\n")
+            calendar.append(f"| *{month}* |{link_columns}|\n")
+        calendar.append("\n")
 
-    # pprint.pprint(toc)
-    return toc
+    # pprint.pprint(calendar)
+    return calendar
 
 
 title = ["# The Journal of Durg Hammerfell\n"]
 md_entries = get_journal_entries(journal_path, exclusions)
-toc = make_toc(md_entries)
+calendar = make_calendar(md_entries)
 
 print("\nJoining markdown chunks into markdown string...")
-journal_text = "".join(itertools.chain(title, toc, md_entries))
+journal_text = "".join(itertools.chain(title, calendar, md_entries))
 
 print("Converting markdown string into HTML...")
 html = markdown.markdown(journal_text, extensions=["markdown.extensions.extra", TocExtension(marker="")])
