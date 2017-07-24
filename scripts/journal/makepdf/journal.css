@@ -32,6 +32,10 @@ h6 { -weasy-bookmark-level: none; }
 
 
 /* # List (journal entry) formatting */
+ul {
+  list-style-image: url('hammer_and_pick.svg');
+}
+
 li {
   page-break-inside: avoid;
   text-align: justify;
