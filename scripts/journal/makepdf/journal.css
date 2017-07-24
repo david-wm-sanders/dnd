@@ -54,7 +54,18 @@ pre {
 
 /* # Title page formatting */
 h1:after {
-    content: url('../../../campaigns/prydain/pc/durg/durg_img_mini.png');
+  content: url('../../../campaigns/prydain/pc/durg/durg_img_mini.png');
+}
+
+#created_with {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 10px;
 }
 
 
@@ -67,12 +78,13 @@ h1:after {
 }
 
 table {
-    width: 100%;
-    font-family: monospace;
+  width: 100%;
+  font-family: monospace;
+  border-spacing: 0px;
 }
 
 th, td {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 thead tr th:first-child,

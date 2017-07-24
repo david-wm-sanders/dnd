@@ -76,7 +76,10 @@ def make_calendar(md_entries):
     return calendar
 
 
-title = ["# The Journal of Durg Hammerfell\n"]
+title = ["# The Journal of Durg Hammerfell\n",
+         "Created with  [journal-makepdf]"\
+         "(https://github.com/david-wm-sanders/dnd/tree/master/scripts/journal/makepdf)\n"\
+         "{: #created_with}\n"]
 md_entries = get_journal_entries(journal_path, exclusions)
 calendar = make_calendar(md_entries)
 
