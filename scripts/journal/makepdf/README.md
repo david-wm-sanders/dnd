@@ -1,6 +1,6 @@
 # README
-## Setup:
-### Windows (x64):
+## Windows (x64):
+### Setup:
 0. Create a venv:  
 `python.exe -m venv venv/`
 0. Upgrade setuptools in the venv with:  
