@@ -1,21 +1,13 @@
+/* # Page formatting */
 @page {
   margin: 1cm;
 }
 
+
+/* # Header formatting */
 h1 {
   text-align: center;
   font-size: 32px;
-}
-
-h1:after {
-    content: url('../../../campaigns/prydain/pc/durg/durg_img_mini.png');
-}
-
-#calendar {
-  page-break-before: always;
-  font-size: 28px;
-  -weasy-bookmark-level: 2;
-  -weasy-bookmark-label: content(text)
 }
 
 h2 {
@@ -37,17 +29,36 @@ h4 {
 h5 { -weasy-bookmark-level: none; }
 h6 { -weasy-bookmark-level: none; }
 
+
+/* # List (journal entry) formatting */
 li {
   page-break-inside: avoid;
   text-align: justify;
   font-size: 16px;
 }
 
+
+/* # Fenced block (limericks, etc) formatting */
 pre {
   page-break-inside: avoid;
   margin-left: 1.5cm;
   font-size: 16px;
   font-style: italic
+}
+
+
+/* # Title page formatting */
+h1:after {
+    content: url('../../../campaigns/prydain/pc/durg/durg_img_mini.png');
+}
+
+
+/* # Calendar formatting */
+#calendar {
+  page-break-before: always;
+  font-size: 28px;
+  -weasy-bookmark-level: 2;
+  -weasy-bookmark-label: content(text)
 }
 
 table {
