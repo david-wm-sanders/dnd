@@ -77,6 +77,14 @@ h1:after {
   -weasy-bookmark-label: content(text)
 }
 
+#calendar_link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: red;
+}
+
 table {
   width: 100%;
   font-family: monospace;

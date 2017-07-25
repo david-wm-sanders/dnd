@@ -39,8 +39,6 @@ def get_journal_entries(journal_path, exclusions):
         return md_blocks
 
 def make_calendar(md_entries):
-    days = list(range(1, 31))
-
     print("\nCreating a calendar...")
     tree = lambda: defaultdict(tree)
     headers = tree()
@@ -52,7 +50,8 @@ def make_calendar(md_entries):
                 day, month, year = int(parts[1][:-2]), parts[2], int(parts[3])
                 headers[year][month][day] = header_id
 
-    calendar = ["## Calendar\n"]
+    calendar = ["## Calendar\n",
+                "[^](#calendar){: #calendar_link}\n\n"]
     for year in headers:
         print(f" Processing {year}...")
         head_columns = "|".join(" " for x in range(1, 31))
@@ -62,7 +61,7 @@ def make_calendar(md_entries):
         for month in headers[year]:
             print(f"  Processing {month}...")
             columns = []
-            for day in days:
+            for day in range(1, 31):
                 if day in headers[year][month]:
                     header_id = headers[year][month][day]
                     columns.append(f" [{day}](#{header_id}) ")
