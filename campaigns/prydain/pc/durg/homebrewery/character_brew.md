@@ -15,16 +15,80 @@ Durg, son of Darg, son of Derg, son of Dirg, son of Dorg, son of Durg, and so on
 ### Table Of Contents
 - **[1 Durg, son of Darg](#p1)**
   - [1.1 Statistics](#p2)
-    - [1.1.1 III](#p2)
-    - [1.1.2 II](#p3)
-    - [1.1.3 I](#p4)
-  - [1.2 Backstory](#p5)
+    - [1.1.1 IV](#p2)
+    - [1.1.2 III](#p3)
+    - [1.1.3 II](#p4)
+    - [1.1.4 I](#p5)
+  - [1.2 Backstory](#p6)
 </div>
+
 
 </div>
 
 \page
 ## Statistics
+
+### IV
+<div style='margin-top:70px'></div>
+
+___
+___
+> ## Durg Hammerfell
+>*Dwarf Path of the Totem Warrior barbarian (3)*  
+>*Mountain dwarf, 75yo, 4' 8", 194lb, chaotic neutral*
+> ___
+> - **Armor Class** 15/17 (shield equipped)
+> - **Hit Points** 59(4d12 + 12)
+> - **Speed** 25ft
+>___
+>|STR    |DEX    |CON    |INT    |WIS    |CHA    |
+>|:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |
+>|18 (+4)|14 (+2)|16 (+3)|12 (+1)|11 (+0)|7 (-2) |
+>___
+> - **Skills** Athletics, Intimidation, Nature, Perception
+> - **Proficiencies** simple weapons, martial weapons, shields, smith's tools, land vehicles, playing cards
+> - **Saving Throws** Strength, Constitution
+> - **Senses** passive Perception 12
+> - **Languages** Common, Dwarvish
+> - **Challenge** variable
+> ___
+> ***Danger Sense.*** Advantage on Dexterity saving throws against effects that can be seen, such as traps and spells. Can not be blinded, deafened or incapacitated.
+>
+> ***Rage.*** Enter a rage as a bonus action. 3 per long rest. While raging:
+> - Advantage on Strength checks and Strength saving throws
+> - +2 rage damage when making a melee weapon attack using Strength
+> - Resistance to all damage except psychic (PotTW:Bear)
+>
+> <div></div>
+>
+> ***Reckless Attack.*** When attacking recklessly: Advantage on melee weapon attack rolls using Strength during that turn, but attack rolls against the reckless attacker have advantage until the start of their next turn.
+>
+> ***Spirit Seeker.*** Can cast the *Beast Sense* and *Speak with Animals* spells as rituals.
+>
+> ***Unarmored Defense.*** When not wearing armor:  
+> AC = 10 + Dexterity mod + Constitution mod
+>___
+> ***Darkvision.*** Superior vision in dark and dim conditions. Dim 60ft as if bright, darkness as if dim.
+>
+> ***Dwarven Resilience.*** Advantage on saving throws against poison. Resistance against poison damage.
+>
+> ***Stonecunning.*** Considered proficient (double bonus) in the History skill when making an Intelligence (History) check related to the origin of stonework.
+>___
+> ***Metalcunning.*** Considered proficient (double bonus) in the History skill when making an Intelligence (History) check related to the origin of metal weapons.
+>
+> ***Weapons Merchant.*** Can sell metal weapons for 75% of their market value.
+> ### Actions
+> ***Warhammer Smash.*** *Melee Weapon Attack:* +6 to hit, reach 5ft, one target. *Hit:* 1d8+4 bludgeoning damage, versatile: 1d10
+>
+> ***Handaxe.*** *Melee or Thrown Weapon Attack:* +6 to hit, reach 5ft or range 20/60ft, one target. *Hit:* 1d6+4 slashing damage
+>
+> ***Longbow Shot.*** *Ranged Weapon Attack:* +4 to hit, range 150/600ft, one target. *Hit:* 1d8+2 piercing damage
+
+
+<div class='pageNumber auto'></div>
+<div class='footnote'>PART 1 | STATISTICS</div>
+
+\page
 
 ### III
 <div style='margin-top:70px'></div>
