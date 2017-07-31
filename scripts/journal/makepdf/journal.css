@@ -97,7 +97,7 @@ h1:after {
 
 table {
   width: 100%;
-  font-family: monospace;
+  /*font-family: monospace;*/
   border-spacing: 0px;
 }
 
