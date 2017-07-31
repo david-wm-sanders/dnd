@@ -53,8 +53,12 @@ li {
 pre {
   page-break-inside: avoid;
   margin-left: 1.5cm;
+}
+
+code {
   font-size: 16px;
-  font-style: italic
+  font-family: "Cambria";
+  font-style: italic;
 }
 
 
@@ -80,7 +84,7 @@ h1:after {
   page-break-before: always;
   font-size: 28px;
   -weasy-bookmark-level: 2;
-  -weasy-bookmark-label: content(text)
+  -weasy-bookmark-label: content(text);
 }
 
 #calendar_link {
