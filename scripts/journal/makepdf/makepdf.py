@@ -8,10 +8,9 @@ from markdown.extensions.toc import TocExtension, slugify as toc_slugify
 
 
 journal_path = Path(f"../../../campaigns/prydain/pc/durg/journal/")
-exclusions = ["1742"]
 
 
-def get_journal_entries(journal_path, exclusions):
+def get_journal_entries(journal_path):
     md_blocks = []
     if not journal_path.exists():
         raise Exception(f"No journal found at '{journal_path}'")
@@ -27,15 +26,15 @@ def get_journal_entries(journal_path, exclusions):
                 entries = month_path.glob("*.md")
                 for entry in entries:
                     entry_name = "/".join(entry.parts[-3:])
-                    for exclusion in exclusions:
-                        if exclusion in str(entry):
-                            print(f"  Entry in '{entry_name}' excluded because '{exclusion}' is in the exclusions list.")
-                            md_blocks.append(f"* Excluded '{entry_name}' because '{exclusion}' is in the exclusions list.\n")
-                            break
+                    md = None
+                    with entry.open(encoding="utf-8") as f:
+                        md = f.read()
+                    h2 = md.splitlines()[0]
+                    parts = h2.split(" ")
+                    if len(parts) > 4 and parts[4] == "-":
+                        print(f"  Entry in '{entry_name}' excluded")
                     else:
-                        with entry.open(encoding="utf-8") as f:
-                            md = f.read()
-                            md_blocks.append(md)
+                        md_blocks.append(md)
         return md_blocks
 
 def make_calendar(md_entries):
@@ -79,7 +78,7 @@ title = ["# The Journal of Durg Hammerfell\n",
          "Created with  [journal-makepdf]"\
          "(https://github.com/david-wm-sanders/dnd/tree/master/scripts/journal/makepdf)\n"\
          "{: #created_with}\n"]
-md_entries = get_journal_entries(journal_path, exclusions)
+md_entries = get_journal_entries(journal_path)
 calendar = make_calendar(md_entries)
 
 print("\nJoining markdown chunks into markdown string...")
