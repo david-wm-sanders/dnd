@@ -5,6 +5,12 @@
 }
 
 
+/* Body formatting */
+body {
+  font-family: "Cambria";
+}
+
+
 /* # Header formatting */
 h1 {
   text-align: center;
