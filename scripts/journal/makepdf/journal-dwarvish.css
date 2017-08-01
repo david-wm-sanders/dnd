@@ -7,8 +7,8 @@
 
 /* Body formatting */
 body {
-  font-family: "Cambria";
-  /*font-family: "DwarvishScript";*/
+  /*font-family: "Cambria";*/
+  font-family: "DwarvishScript";
 }
 
 
@@ -58,8 +58,8 @@ pre {
 
 code {
   font-size: 16px;
-  font-family: "Cambria";
-  /*font-family: "DwarvishScript";*/
+  /*font-family: "Cambria";*/
+  font-family: "DwarvishScript";
   font-style: italic;
 }
 

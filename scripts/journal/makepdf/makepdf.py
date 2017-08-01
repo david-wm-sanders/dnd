@@ -92,3 +92,8 @@ print("Rendering HTML to journal.pdf...")
 pdf_path = journal_path / "journal.pdf"
 with pdf_path.open(mode="wb") as f:
     weasyprint.HTML(string=html).write_pdf(f, stylesheets=["journal.css"])
+
+print("Rendering HTML to journal-dwarvish.pdf...")
+pdf_path = journal_path / "journal-dwarvish.pdf"
+with pdf_path.open(mode="wb") as f:
+    weasyprint.HTML(string=html).write_pdf(f, stylesheets=["journal-dwarvish.css"])
