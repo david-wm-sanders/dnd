@@ -88,10 +88,10 @@ print("Converting markdown string into HTML...")
 html = markdown.markdown(journal_text, extensions=["markdown.extensions.extra", TocExtension(marker="")])
 (journal_path / "journal.html").write_text(html)
 
-print("Rendering HTML to journal.pdf...")
-pdf_path = journal_path / "journal.pdf"
+print("Rendering HTML to journal-common.pdf...")
+pdf_path = journal_path / "journal-common.pdf"
 with pdf_path.open(mode="wb") as f:
-    weasyprint.HTML(string=html).write_pdf(f, stylesheets=["journal.css"])
+    weasyprint.HTML(string=html).write_pdf(f, stylesheets=["journal-common.css"])
 
 print("Rendering HTML to journal-dwarvish.pdf...")
 pdf_path = journal_path / "journal-dwarvish.pdf"
