@@ -1,0 +1,21 @@
+{
+  "dice": 8,
+  "rolls": [
+    {
+      "roll": "1-3",
+      "result": "an orc and a human"
+    },
+    {
+      "roll": "4-5",
+      "result": "an orc and a half-orc"
+    },
+    {
+      "roll": "6-7",
+      "result": "a human and a half-orc"
+    },
+    {
+      "roll": "8",
+      "result": "both half-orcs"
+    }
+  ]
+}

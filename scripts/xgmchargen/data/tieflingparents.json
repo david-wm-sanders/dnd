@@ -1,0 +1,21 @@
+{
+  "dice": 8,
+  "rolls": [
+    {
+      "roll": "1-4",
+      "result": "both humans, their infernal heritage dormant until you came along"
+    },
+    {
+      "roll": "4-6",
+      "result": "a tiefling and a human"
+    },
+    {
+      "roll": "7",
+      "result": "a tiefling and a devil"
+    },
+    {
+      "roll": "8",
+      "result": "a human and a devil"
+    }
+  ]
+}

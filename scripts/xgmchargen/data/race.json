@@ -1,0 +1,45 @@
+{
+  "dice": 100,
+  "rolls": [
+    {
+      "roll": "1-40",
+      "result": "a human"
+    },
+    {
+      "roll": "41-50",
+      "result": "a dwarf"
+    },
+    {
+      "roll": "51-60",
+      "result": "an elf"
+    },
+    {
+      "roll": "61-70",
+      "result": "a halfling"
+    },
+    {
+      "roll": "71-75",
+      "result": "a dragonborn"
+    },
+    {
+      "roll": "76-80",
+      "result": "a gnome"
+    },
+    {
+      "roll": "81-85",
+      "result": "a half-elf"
+    },
+    {
+      "roll": "86-90",
+      "result": "a half-orc"
+    },
+    {
+      "roll": "91-95",
+      "result": "a tiefling"
+    },
+    {
+      "roll": "96-100",
+      "result": "a yuan-ti"
+    }
+  ]
+}
