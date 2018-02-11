@@ -1,0 +1,49 @@
+{
+  "dice": 100,
+  "rolls": [
+    {
+      "roll": "1",
+      "result": "by nobody"
+    },
+    {
+      "roll": "2",
+      "result": "in an instituion, such as an asylum"
+    },
+    {
+      "roll": "3",
+      "result": "in a temple"
+    },
+    {
+      "roll": "4-5",
+      "result": "in an orphanage"
+    },
+    {
+      "roll": "6-7",
+      "result": "by a guardian"
+    },
+    {
+      "roll": "8-15",
+      "result": "by your paternal or maternal aunt, uncle, or both; or extended family such as a tribe or clan"
+    },
+    {
+      "roll": "16-25",
+      "result": "by your paternal or maternal grandparent(s)"
+    },
+    {
+      "roll": "26-35",
+      "result": "by an adoptive family (same or different race)"
+    },
+    {
+      "roll": "36-55",
+      "result": "by your father or stepfather alone"
+    },
+    {
+      "roll": "56-75",
+      "result": "by your mother or stepmother alone"
+    },
+    {
+      "roll": "76-100",
+      "result": "by your mother and father"
+    }
+  ]
+}

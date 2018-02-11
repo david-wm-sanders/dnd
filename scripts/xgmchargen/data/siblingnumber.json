@@ -1,0 +1,25 @@
+{
+  "dice": 10,
+  "rolls": [
+    {
+      "roll": "1-2",
+      "result": 0
+    },
+    {
+      "roll": "3-4",
+      "result_diceroll": "d3+0"
+    },
+    {
+      "roll": "5-6",
+      "result_diceroll": "d4+1"
+    },
+    {
+      "roll": "7-8",
+      "result_diceroll": "d6+2"
+    },
+    {
+      "roll": "9-10",
+      "result_diceroll": "d8+3"
+    }
+  ]
+}
