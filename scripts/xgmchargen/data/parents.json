@@ -1,0 +1,13 @@
+{
+  "dice": 100,
+  "rolls": [
+    {
+      "roll": "1-95",
+      "result": "know"
+    },
+    {
+      "roll": "96-100",
+      "result": "do not know"
+    }
+  ]
+}

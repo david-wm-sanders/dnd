@@ -1,0 +1,97 @@
+{
+  "dice": 100,
+  "rolls": [
+    {
+      "roll": "1-50",
+      "result": "at home"
+    },
+    {
+      "roll": "51-55",
+      "result": "at the home of a family friend"
+    },
+    {
+      "roll": "56-63",
+      "result": "at the home of a healer or midwife"
+    },
+    {
+      "roll": "64-65",
+      "result": "in a carriage, cart, or wagon"
+    },
+    {
+      "roll": "66-68",
+      "result": "in a barn, shed, or other outbuilding"
+    },
+    {
+      "roll": "69-70",
+      "result": "in a cave"
+    },
+    {
+      "roll": "71-72",
+      "result": "in a field"
+    },
+    {
+      "roll": "73-74",
+      "result": "in a forest"
+    },
+    {
+      "roll": "75-77",
+      "result": "at a temple"
+    },
+    {
+      "roll": "78",
+      "result": "on a battlefield"
+    },
+    {
+      "roll": "79-80",
+      "result": "in an alley or on the streets"
+    },
+    {
+      "roll": "81-82",
+      "result": "in a brothel, tavern, or inn"
+    },
+    {
+      "roll": "83-84",
+      "result": "in a castle, keep, tower, or palace"
+    },
+    {
+      "roll": "85",
+      "result": "in the sewers or on a rubbish heap"
+    },
+    {
+      "roll": "86-88",
+      "result": "amongst people of a different race"
+    },
+    {
+      "roll": "89-91",
+      "result": "on board a boat or ship"
+    },
+    {
+      "roll": "92-93",
+      "result": "in a prison or the headquarters of a secret organisation"
+    },
+    {
+      "roll": "95-95",
+      "result": "in a sage's laboratory"
+    },
+    {
+      "roll": "96",
+      "result": "in the Feywild"
+    },
+    {
+      "roll": "97",
+      "result": "in the Shadowfell"
+    },
+    {
+      "roll": "98",
+      "result": "on the Astral or Ethereal Plane"
+    },
+    {
+      "roll": "99",
+      "result": "on an Inner Plane of your choice"
+    },
+    {
+      "roll": "100",
+      "result": "on an Outer Plane of your choice"
+    }
+  ]
+}
