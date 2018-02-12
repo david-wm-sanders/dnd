@@ -4,7 +4,13 @@
   "rolls": [
     {
       "roll": "1",
-      "result": "died"
+      "result": "died",
+      "subrolls":
+      [
+        {
+          "table": "causeofdeath"
+        }
+      ]
     },
     {
       "roll": "2",

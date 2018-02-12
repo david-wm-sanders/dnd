@@ -1,0 +1,50 @@
+{
+  "statement": "They {}.",
+  "dice": 12,
+  "rolls": [
+    {
+      "roll": "1",
+      "result": "were killed in an unknown manner"
+    },
+    {
+      "roll": "2",
+      "result": "were murdered"
+    },
+    {
+      "roll": "3",
+      "result": "were killed in battle"
+    },
+    {
+      "roll": "4",
+      "result": "were killed in an accident related to their class or occupation"
+    },
+    {
+      "roll": "5",
+      "result": "were killed in an accident unrelated to their class or occupation"
+    },
+    {
+      "roll": "6-7",
+      "result": "passed away due to natural causes, such as disease or old age"
+    },
+    {
+      "roll": "8",
+      "result": "committed suicide"
+    },
+    {
+      "roll": "9",
+      "result": "were torn asunder by an animal or natural disaster"
+    },
+    {
+      "roll": "10",
+      "result": "were killed screaming in the mouth or belly of a monster"
+    },
+    {
+      "roll": "11",
+      "result": "were executed for a crime or tortured to death"
+    },
+    {
+      "roll": "12",
+      "result": "were killed in a bizzare event, such as being hit by a meteorite or struck down by an angry god"
+    }
+  ]
+}
