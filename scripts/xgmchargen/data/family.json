@@ -1,45 +1,192 @@
 {
+  "statement": "You were raised {}.",
   "dice": 100,
   "rolls": [
     {
       "roll": "1",
-      "result": "by nobody"
+      "result": "by nobody",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "2",
-      "result": "in an instituion, such as an asylum"
+      "result": "in an instituion, such as an asylum",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "3",
-      "result": "in a temple"
+      "result": "in a temple",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "4-5",
-      "result": "in an orphanage"
+      "result": "in an orphanage",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "6-7",
-      "result": "by a guardian"
+      "result": "by a guardian",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "8-15",
-      "result": "by your paternal or maternal aunt, uncle, or both; or extended family such as a tribe or clan"
+      "result": "by your paternal or maternal aunt, uncle, or both; or extended family such as a tribe or clan",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "16-25",
-      "result": "by your paternal or maternal grandparent(s)"
+      "result": "by your paternal or maternal grandparent(s)",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "26-35",
-      "result": "by an adoptive family (same or different race)"
+      "result": "by an adoptive family (same or different race)",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        },
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "36-55",
-      "result": "by your father or stepfather alone"
+      "result": "by your father alone",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["mother"]
+          }
+        }
+      ]
     },
     {
       "roll": "56-75",
-      "result": "by your mother or stepmother alone"
+      "result": "by your mother alone",
+      "subrolls": [
+        {
+          "table": "absentparent",
+          "data":
+          {
+            "pre": ["father"]
+          }
+        }
+      ]
     },
     {
       "roll": "76-100",

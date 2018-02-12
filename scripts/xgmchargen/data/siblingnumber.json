@@ -1,4 +1,5 @@
 {
+  "statement": "You have {} sibling(s).",
   "dice": 10,
   "rolls": [
     {

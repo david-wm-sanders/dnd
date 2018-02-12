@@ -1,4 +1,5 @@
 {
+  "statement": "You are {}.",
   "dice": 100,
   "rolls": [
     {
@@ -27,15 +28,30 @@
     },
     {
       "roll": "81-85",
-      "result": "a half-elf"
+      "result": "a half-elf",
+      "subrolls": [
+        {
+          "table": "halfelfparents"
+        }
+      ]
     },
     {
       "roll": "86-90",
-      "result": "a half-orc"
+      "result": "a half-orc",
+      "subrolls": [
+        {
+          "table": "halforcparents"
+        }
+      ]
     },
     {
       "roll": "91-95",
-      "result": "a tiefling"
+      "result": "a tiefling",
+      "subrolls": [
+        {
+          "table": "tieflingparents"
+        }
+      ]
     },
     {
       "roll": "96-100",

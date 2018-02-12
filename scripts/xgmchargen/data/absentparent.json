@@ -1,0 +1,22 @@
+{
+  "statement": "Your {} {}.",
+  "dice": 4,
+  "rolls": [
+    {
+      "roll": "1",
+      "result": "died"
+    },
+    {
+      "roll": "2",
+      "result": "was imprisoned, enslaved, or otherwise taken away"
+    },
+    {
+      "roll": "3",
+      "result": "abandoned you"
+    },
+    {
+      "roll": "4",
+      "result": "disappeared to an unknown fate"
+    }
+  ]
+}
